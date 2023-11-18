@@ -1,0 +1,21 @@
+.menu {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  list-style: none;
+  // padding: 20px;
+  height: 60px;
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(186, 183, 183);
+    text-transform: capitalize;
+
+    // &::first-letter {
+    //   text-transform: uppercase;
+    // }
+  }
+}

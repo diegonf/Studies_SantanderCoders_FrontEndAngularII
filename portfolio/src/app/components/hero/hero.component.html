@@ -1,0 +1,20 @@
+<div *ngIf="apresentacao" class="hero-container">
+  <div class="apresentacao">
+    <div class="dados-pessoais">
+      <span>Olá, meu nome é</span>
+      <div>
+        <span class="nome">{{ getPrimeiroNome() }}</span>
+        <span class="sobrenome">{{ getSobrenome() }}</span>
+      </div>
+      <span>Sou {{ apresentacao.profissao }}!</span>
+    </div>
+    <div class="redes-sociais">
+      <ng-container *ngFor="let rede of apresentacao?.redesSociais">
+        <a [href]="rede.urlPerfil" target="_blank">
+          <img [src]="rede.urlIcone" alt="">
+        </a>
+      </ng-container>
+    </div>
+  </div>
+  <img class="hero-img" src="../../../assets/img-hero.svg" alt="">
+</div>

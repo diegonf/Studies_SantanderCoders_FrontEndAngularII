@@ -1,8 +1,8 @@
 export const curriculo = {
   "apresentacao": {
     "nome": "Diego do Nascimento Ferreira",
-    "sobreMimCurto": "Sou desenvolvedor Frontend",
-    "sobreMimLongo": "Olá, sou o Diego! Sou Engenheiro Mecânico com 5 anos de experiência em indústria e estou em transição de carreira para a area de desenvolvimento frontend. Confira aqui meu portfolio com projetos web que desenvolvi utilizando javascript puro (vanilla.js), React.js e Angular.",
+    "profissao": "Desenvolvedor Frontend",
+    "sobreMim": "Olá, sou o Diego! Sou Engenheiro Mecânico com 5 anos de experiência em indústria e estou em transição de carreira para a area de desenvolvimento frontend. Confira aqui meu portfolio com projetos web que desenvolvi utilizando javascript puro (vanilla.js), React.js e Angular.",
     "redesSociais": [
       {
         "urlPerfil": "https://www.linkedin.com/in/diegonf/",
